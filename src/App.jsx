@@ -13,7 +13,9 @@ function App() {
     'mr-IN': "नमस्कार! मी तुमचा बहुभाषिक सहाय्यक आहे. मी तुम्हाला कशी मदत करू शकतो?",
     'bn-IN': "হ্যালো! আমি আপনার বহুভাষিক সহকারী। আমি আপনাকে কিভাবে সাহায্য করতে পারি?",
     'gu-IN': "નમસ્તે! હું તમારો બહુભાષી મદદનીશ છું. હું તમને કેવી રીતે મદદ કરી શકું?",
-    'pa-IN': "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਮੈਂ ਤੁਹਾਡਾ ਬਹੁ-ਭਾਸ਼ਾਈ ਸਹਾਇਕ ਹਾਂ। ਮੈਂ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?"
+    'pa-IN': "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਮੈਂ ਤੁਹਾਡਾ ਬਹੁ-ਭਾਸ਼ਾਈ ਸਹਾਇਕ ਹਾਂ। ਮੈਂ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?",
+    'en-IN': "Hello! I am your multi-language assistant. How can I help you today?",
+    'en-US': "Hello! I am your multi-language assistant. How can I help you today?"
   };
 
   const [language, setLanguage] = useState('kn-IN')
@@ -149,7 +151,8 @@ function App() {
             <option value="hi-IN">Hindi (हिंदी)</option>
             <option value="ta-IN">Tamil (ತಮಿಳು)</option>
             <option value="te-IN">Telugu (ತೆಲುಗು)</option>
-
+            {/* <option value="en-IN">English (English)</option> */}
+            <option value="en-US">English (US)</option>
 
           </select>
         </div>

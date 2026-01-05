@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api",
+            "destination": "https://2wdk2en6nf.execute-api.ap-south-1.amazonaws.com/dev"
+        }
+    ]
+}
